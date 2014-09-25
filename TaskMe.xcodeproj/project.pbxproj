@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F5DBF9819D3B4D8000C7C96 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5DBF9719D3B4D8000C7C96 /* AddTaskViewController.swift */; };
 		8F88FA5F19B6A62D00D920F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F88FA5E19B6A62D00D920F5 /* AppDelegate.swift */; };
 		8F88FA6119B6A62D00D920F5 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F88FA6019B6A62D00D920F5 /* MasterViewController.swift */; };
 		8F88FA6319B6A62D00D920F5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F88FA6219B6A62D00D920F5 /* DetailViewController.swift */; };
 		8F88FA6619B6A62D00D920F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F88FA6419B6A62D00D920F5 /* Main.storyboard */; };
 		8F88FA6819B6A62D00D920F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F88FA6719B6A62D00D920F5 /* Images.xcassets */; };
 		8F88FA7419B6A62E00D920F5 /* TaskMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F88FA7319B6A62E00D920F5 /* TaskMeTests.swift */; };
-		8FF1D9F219D37BD000DABAFF /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF1D9F119D37BD000DABAFF /* AddTaskViewController.swift */; };
 		8FF1D9F419D37CBC00DABAFF /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF1D9F319D37CBC00DABAFF /* DismissSegue.swift */; };
 		8FF1D9F619D37F6900DABAFF /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF1D9F519D37F6900DABAFF /* Task.swift */; };
 		8FF1D9F819D3801B00DABAFF /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF1D9F719D3801B00DABAFF /* TaskStore.swift */; };
@@ -30,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F5DBF9719D3B4D8000C7C96 /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 		8F88FA5919B6A62D00D920F5 /* TaskMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F88FA5D19B6A62D00D920F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F88FA5E19B6A62D00D920F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,7 +41,6 @@
 		8F88FA6D19B6A62E00D920F5 /* TaskMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F88FA7219B6A62E00D920F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F88FA7319B6A62E00D920F5 /* TaskMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskMeTests.swift; sourceTree = "<group>"; };
-		8FF1D9F119D37BD000DABAFF /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddTaskViewController.swift; path = ../AddTaskViewController.swift; sourceTree = "<group>"; };
 		8FF1D9F319D37CBC00DABAFF /* DismissSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissSegue.swift; sourceTree = "<group>"; };
 		8FF1D9F519D37F6900DABAFF /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		8FF1D9F719D3801B00DABAFF /* TaskStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		8F88FA5B19B6A62D00D920F5 /* TaskMe */ = {
 			isa = PBXGroup;
 			children = (
-				8FF1D9F119D37BD000DABAFF /* AddTaskViewController.swift */,
+				8F5DBF9719D3B4D8000C7C96 /* AddTaskViewController.swift */,
 				8F88FA5E19B6A62D00D920F5 /* AppDelegate.swift */,
 				8F88FA6019B6A62D00D920F5 /* MasterViewController.swift */,
 				8F88FA6219B6A62D00D920F5 /* DetailViewController.swift */,
@@ -224,8 +224,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F88FA6319B6A62D00D920F5 /* DetailViewController.swift in Sources */,
+				8F5DBF9819D3B4D8000C7C96 /* AddTaskViewController.swift in Sources */,
 				8FF1D9F419D37CBC00DABAFF /* DismissSegue.swift in Sources */,
-				8FF1D9F219D37BD000DABAFF /* AddTaskViewController.swift in Sources */,
 				8F88FA6119B6A62D00D920F5 /* MasterViewController.swift in Sources */,
 				8FF1D9F619D37F6900DABAFF /* Task.swift in Sources */,
 				8F88FA5F19B6A62D00D920F5 /* AppDelegate.swift in Sources */,
